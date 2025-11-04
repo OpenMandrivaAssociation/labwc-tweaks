@@ -4,7 +4,7 @@ Release:        1
 Summary:        GUI Configuration app for labwc
 License:        BSD-3-Clause AND GPL-2.0-only
 URL:            https://github.com/labwc/labwc-tweaks
-Source:         https://github.com/labwc/labwc-tweaks/archive/refs/heads/master.tar.gz
+Source:         https://github.com/labwc/labwc-tweaks/archive/refs/heads/labwc-tweaks-master.tar.gz
 BuildRequires:  cmake
 BuildRequires:  hicolor-icon-theme
 BuildRequires:  pkgconfig
