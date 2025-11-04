@@ -18,7 +18,7 @@ Requires:       labwc
 labwc-tweaks is a GUI configuration application for the labwc Wayland compositor
 
 %prep
-%autosetup -p1
+%autosetup -n labwc-tweaks-master -p1
 
 %build
 %cmake
