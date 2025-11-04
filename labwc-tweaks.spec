@@ -40,4 +40,3 @@ labwc-tweaks is a GUI configuration application for the labwc Wayland compositor
 %{_datadir}/metainfo/labwc_tweaks.appdata.xml
 %dir %{_datadir}/%{name}
 %dir %{_datadir}/%{name}/translations
-%{_datadir}/%{name}/translations/%{name}_kab.qm
