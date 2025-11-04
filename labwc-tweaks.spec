@@ -8,10 +8,13 @@ Source:         https://github.com/labwc/labwc-tweaks/archive/refs/heads/labwc-t
 BuildRequires:  cmake
 BuildRequires:  hicolor-icon-theme
 BuildRequires:  pkgconfig
+BuildRequires:  pkgconfig(glib-2.0)
 BuildRequires:  cmake(Qt6Core)
 BuildRequires:  cmake(Qt6LinguistTools)
 BuildRequires:  cmake(Qt6Widgets)
+BuildRequires:  qt6-qtbase-theme-gtk3
 BuildRequires:  pkgconfig(libxml-2.0)
+BuildRequires:  cmake(VulkanHeaders)
 Requires:       labwc
 
 %description
