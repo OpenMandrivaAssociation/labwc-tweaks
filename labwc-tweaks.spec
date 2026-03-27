@@ -1,6 +1,6 @@
 Name:           labwc-tweaks
 Version:        0~git.20251101.0
-Release:        1
+Release:        2
 Summary:        GUI Configuration app for labwc
 License:        BSD-3-Clause AND GPL-2.0-only
 URL:            https://github.com/labwc/labwc-tweaks
