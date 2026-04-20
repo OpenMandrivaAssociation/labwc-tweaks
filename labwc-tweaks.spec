@@ -1,10 +1,10 @@
 Name:           labwc-tweaks
-Version:        0~git.20251101.0
-Release:        2
+Version:        0.1.0
+Release:        1
 Summary:        GUI Configuration app for labwc
 License:        BSD-3-Clause AND GPL-2.0-only
 URL:            https://github.com/labwc/labwc-tweaks
-Source:         https://github.com/labwc/labwc-tweaks/archive/refs/heads/labwc-tweaks-master.tar.gz
+Source:         https://github.com/labwc/labwc-tweaks/archive/%{version}/%{name}-%{version}.tar.gz
 BuildRequires:  make
 BuildRequires:  cmake
 BuildRequires:  hicolor-icon-theme
@@ -22,7 +22,7 @@ Requires:       labwc
 labwc-tweaks is a GUI configuration application for the labwc Wayland compositor
 
 %prep
-%autosetup -n labwc-tweaks-master -p1
+%autosetup -n labwc-tweaks-%{version} -p1
 
 %build
 %cmake
